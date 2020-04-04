@@ -1,0 +1,69 @@
+/* NAVBAR BG */
+
+body {
+    color: #fff;
+    background: url(./assets/txt.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.nav-wrapper {
+    background: url(./assets/image0.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.focus,
+.focus2 {
+    font-size: 100px;
+    font-weight: bold;
+    color: transparent;
+    background: url(assets/4.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
+.obj {
+    border-bottom: 5px solid white;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: transparent;
+    background: url(assets/4.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
+#main-header {
+    color: #fff;
+    margin: 200px 0;
+}
+
+
+/*** footer starts ***/
+
+#footer {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./assets/image0.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding: 5em 4em 2em;
+}
+
+#footer #logo {
+    background-color: rgba(255, 103, 68, 0.91);
+    background-size: 60%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    color: #fff;
+    padding: .4em;
+    font-family: "Maven pro", sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    display: inline;
+}
+
+#footer #copyright {
+    margin-top: 1.6em;
+    font-family: "Maven pro", sans-serif;
+    font-weight: 500;
+    color: #fff;
+}

@@ -1,0 +1,3 @@
+blaze = () => {
+	alert('HELLO');
+};
